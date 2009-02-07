@@ -14,4 +14,4 @@
                             (apply func args)
                             (self (cdr al)))))
                    (or (extensions* ',name)
-                       (err "no extension defined for" name)))))))
+                       (err "no extension defined for" ',name)))))))
